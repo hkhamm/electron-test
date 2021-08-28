@@ -2,7 +2,7 @@ import { keyframes } from "@emotion/react"
 import { CssBaseline, styled, Typography } from "@material-ui/core"
 import React from "react"
 import ReactDOM from "react-dom"
-import Logo from "./Logo"
+import BaseLogo from "./Logo"
 
 const Container = styled("div")(() => ({
   textAlign: "center",
@@ -32,7 +32,7 @@ const rotate = keyframes({
   },
 })
 
-const StyledLogo = styled(Logo)(() => ({
+const Logo = styled(BaseLogo)(() => ({
   animation: `${rotate} infinite 20s linear`,
   height: "40vmin",
   pointerEvents: "none",
@@ -42,7 +42,7 @@ function App() {
   return (
     <Container>
       <Content>
-        <StyledLogo />
+        <Logo />
         <Typography variant="inherit" style={{ marginBottom: 16 }}>
           Edit <code>src/App.tsx</code> and save to reload.
         </Typography>
