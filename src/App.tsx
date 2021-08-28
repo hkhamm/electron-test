@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./App.css";
-import "./index.css";
-import Logo from "./Logo";
+import React from "react"
+import ReactDOM from "react-dom"
+import "./App.css"
+import "./index.css"
+import Logo from "./Logo"
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
 ReactDOM.render(
@@ -30,4 +30,4 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById("root")
-);
+)

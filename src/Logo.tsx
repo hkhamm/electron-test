@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
 const Logo: FC<React.SVGProps<SVGSVGElement>> = ({ className }) => (
   <svg
@@ -12,6 +12,6 @@ const Logo: FC<React.SVGProps<SVGSVGElement>> = ({ className }) => (
       <path d="M520.5 78.1z" />
     </g>
   </svg>
-);
+)
 
-export default Logo;
+export default Logo
