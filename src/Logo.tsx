@@ -1,6 +1,6 @@
-import React, { FC } from "react"
+import React, { FC, SVGProps } from "react"
 
-const Logo: FC<React.SVGProps<SVGSVGElement>> = ({ className }) => (
+const Logo: FC<SVGProps<SVGSVGElement>> = ({ className }) => (
   <svg
     className={className}
     xmlns="http://www.w3.org/2000/svg"

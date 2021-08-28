@@ -1,3 +1,3 @@
 # election-test
 
-Electron, React, Typescript
+Electron, React, TypeScript
